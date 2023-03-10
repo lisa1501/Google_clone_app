@@ -1,3 +1,4 @@
+import Avatar from '../components/Avatar'
 import Head from 'next/head'
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
 
                     {/* Icon */}
                     {/* Avatar */}
+                    <Avatar url="https://static-exp1.licdn.com/sc/h/dxf91zhqd2z6b0bwg85ktm5s4"/>
                 </div>
             </header>            
             {/* Body */}

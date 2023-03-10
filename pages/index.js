@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import { ViewGridIcon } from '@heroicons/react/solid';
+import Image from 'next/image';
+
 
 import Avatar from '../components/Avatar';
 
@@ -29,6 +31,16 @@ export default function Home() {
                 </div>
             </header>            
             {/* Body */}
+            <form>
+                <Image
+                    src="/google.png"
+                    
+                    height={100}
+                    width={300}
+                />
+                    
+                
+            </form>
 
             {/* Footer */}
         

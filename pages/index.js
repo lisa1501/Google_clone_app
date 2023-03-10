@@ -32,7 +32,7 @@ export default function Home() {
                 </div>
             </header>            
             {/* Body */}
-            <form>
+            <form className='flex flex-col items-center mt-44 flex-grow'>
                 <Image
                     src="/google.png"
                     

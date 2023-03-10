@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { ViewGridIcon } from '@heroicons/react/solid';
+import { SearchIcon } from '@heroicons/react/outline';
 import Image from 'next/image';
 
 
@@ -38,7 +39,8 @@ export default function Home() {
                     height={100}
                     width={300}
                 />
-                    
+                <SearchIcon className='h-5 mr-3 text-gray-500'/> 
+                <input type="text" placeholder="Search" className="bg-red-500 focus:outline-none"/>
                 
             </form>
 

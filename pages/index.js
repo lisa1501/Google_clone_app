@@ -35,7 +35,7 @@ export default function Home() {
             <form className='flex flex-col items-center mt-44 flex-grow'>
                 <Image
                     src="/google.png"
-                    
+                    alt = "Google Logo"
                     height={100}
                     width={300}
                 />
@@ -45,6 +45,12 @@ export default function Home() {
                     <SearchIcon className='h-5 mr-3 text-gray-500'/> 
                     <input type="text" placeholder="Search" className="flex-grow focus:outline-none"/>
                     <MicrophoneIcon className='h-5'/>
+                </div>
+
+                <div className='flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0
+                                sm:flex-row sm:space-x-4'>
+                    <button className='btn'>Google Search</button>
+                    <button className='btn'>I'm Feeling Lucky</button>
                 </div>
                 
             </form>

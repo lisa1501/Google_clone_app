@@ -48,6 +48,9 @@ function Header() {
                         <SearchIcon className='mr-2 h-6 hidden sm:inline-flex text-blue-500 pl-1 border-gray-300 cursor-pointer'/> 
                         <button hidden type='submit' onClick={search}>Search</button>
                     </form>
+                    <Avatar className="ml-auto" url="https://static-exp1.licdn.com/sc/h/dxf91zhqd2z6b0bwg85ktm5s4"/>
+                    
+                    
                 </div>
             </header>
         </div>

@@ -59,8 +59,8 @@ export default function Home() {
                     <SearchIcon className='h-5 mr-3 text-gray-500'/> 
                     <input ref={searchInputRef} type="text" placeholder="Search Google or type a URL" className="flex-grow focus:outline-none"/>
                     <div className='flex space-x-2 items-center'>
-                        <MicrophoneIcon className='h-5' />
-                        <CameraIcon className='h-5' />
+                        <MicrophoneIcon className='mr-3 h-5 hidden sm:inline-flex text-blue-500 border-gray-300 cursor-pointer' />
+                        <CameraIcon className='h-5 hidden sm:inline-flex text-blue-500 border-gray-300 cursor-pointer' />
                     </div>
                     
                 </div>

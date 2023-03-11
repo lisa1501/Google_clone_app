@@ -4,7 +4,9 @@ import { useRouter } from 'next/router';
 import { useRef } from'react';
 import { CameraIcon, MicrophoneIcon, ViewGridIcon } from '@heroicons/react/solid';
 import { SearchIcon } from '@heroicons/react/outline';
+
 import Avatar from './Avatar';
+import HeaderOPtions from './HeaderOPtions';
 
 function Header() {
     const router= useRouter();
@@ -48,13 +50,17 @@ function Header() {
                         <SearchIcon className='mr-2 h-6 hidden sm:inline-flex text-blue-500 pl-1 border-gray-300 cursor-pointer'/> 
                         <button hidden type='submit' onClick={search}>Search</button>
                     </form>
+                    
                     <Avatar className="ml-auto" url="https://static-exp1.licdn.com/sc/h/dxf91zhqd2z6b0bwg85ktm5s4"/>
-                    
-                    
+    
                 </div>
+                <HeaderOPtions/>
+                
             </header>
         </div>
     )
 }
+
+
 
 export default Header

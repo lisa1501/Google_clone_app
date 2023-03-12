@@ -26,7 +26,7 @@ function search({ results }) {
 export default search;
 
 export async function getServerSideProps(context) {
-    const useDummyData = true;
+    const useDummyData =false;
     const startIndex = context.query.start || "0";
     const data = useDummyData ? Response: await fetch(
                             `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}&q=${context.query.term}&start=${startIndex}`
